@@ -18,4 +18,4 @@ Assurez-vous d'avoir `numpy` et `matplotlib` installés :
 pip install numpy matplotlib
 ```
 ---
-<img src="assets/Figure_1.png" alt="preview">
+<img src="capture/Figure_1.png" alt="preview">
