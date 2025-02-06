@@ -1,4 +1,4 @@
-# Binary Line Coding Visualization  
+# Base Strip Visualization  
 
 Ce projet implémente et visualise plusieurs méthodes de codage de ligne binaire en Python à l'aide de `numpy` et `matplotlib`.  
 Il prend une séquence binaire en entrée et génère des signaux encodés selon les schémas suivants :  
