@@ -75,7 +75,7 @@ def manchester(sequence, bit_duration=1):
     return time, signal
 
 # Binary sequence
-binary_sequence = [1, 0, 1, 1, 0, 0, 1, 1]
+binary_sequence = [0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,0]
 bit_duration = 1
 
 # Generate signals
@@ -100,7 +100,7 @@ plt.grid()
 # Plot NRZ-L
 plt.subplot(4, 1, 1)
 plt.plot(time_nrz_l, signal_nrz_l, label="generate_signal", drawstyle="steps-pre")
-plt.title("Signal d'entrée")
+plt.title("NRZ-L")
 plt.xlabel("Temps")
 plt.ylabel("Amplitude")
 plt.grid()
@@ -108,7 +108,7 @@ plt.grid()
 # Plot NRZ-I
 plt.subplot(4, 1, 2)
 plt.plot(time_nrz_i, signal_nrz_i, label="generate_signal", drawstyle="steps-pre")
-plt.title("Signal d'entrée")
+plt.title("NRZ-I")
 plt.xlabel("Temps")
 plt.ylabel("Amplitude")
 plt.grid()
@@ -117,7 +117,7 @@ plt.grid()
 # Plot Manchester
 plt.subplot(4, 1, 3)
 plt.plot(time_manchester, signal_manchester, label="generate_signal", drawstyle="steps-pre")
-plt.title("Signal d'entrée")
+plt.title("Manchester")
 plt.xlabel("Temps")
 plt.ylabel("Amplitude")
 plt.grid()
