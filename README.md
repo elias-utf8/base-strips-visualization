@@ -18,4 +18,4 @@ Assurez-vous d'avoir `numpy` et `matplotlib` installés :
 pip install numpy matplotlib
 ```
 ---
-![Capture d'écran](https://github.com/elias-utf8/base-strips-visualization/tree/main/capture/Figure_1.png)
+<img src="assets/Figure_1.png" alt="preview">
