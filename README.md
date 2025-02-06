@@ -17,4 +17,5 @@ Assurez-vous d'avoir `numpy` et `matplotlib` installés :
 ```bash
 pip install numpy matplotlib
 ```
-
+---
+![Capture d'écran](captures/Figure_1.png)
