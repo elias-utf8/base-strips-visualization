@@ -11,6 +11,7 @@ Chaque méthode transforme la séquence binaire en un signal temporel, puis l'af
 
 ## 📌 Installation 
 Il est recommandé d'utiliser un environnement virtuel!
+
 Assurez-vous d'avoir `numpy` et `matplotlib` installés :  
 
 ```bash
